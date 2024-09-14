@@ -15,7 +15,7 @@ class Catalog:
         return self._category[0]
     
     def computer_names(self):
-        return self._Computers[1]
+        return self._Computers[0]
     
     def computer_quantities(self):
         return self._Computers[1]
@@ -62,7 +62,8 @@ print("Computer Names:", computer_names)
 print("Computer Quantities:", computer_quantities)
 print(f"First Computer: {first_computer_name}, Quantity: {first_computer_quantity}")
         
- 
+for comp in computer_names:
+    print(comp)
     
     
     
